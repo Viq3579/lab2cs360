@@ -1,0 +1,77 @@
+#mainContent {
+    padding-left: 200px;
+    padding-right: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#leftContent {
+    margin: 75px;
+}
+#contactText {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.input_fields {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.input_subtitle {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.text_input {
+    width: 350px;
+    height: 30px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    border-color: #555;
+    font-size: 18px;
+    resize: none;
+    padding: 5px;
+    padding-left: 10px;
+}
+#messageInput {
+    height: 200px;
+    line-height: 25px;
+    border-width: 2px;
+}
+#submitContainer {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+#submitButton {
+    width: 100px;
+    height: 40px;
+    background: #555;
+    color: #eee;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 100ms;
+}
+#submitButton:hover {
+    background: #5f5f5f;
+}
+#submitButton:active {
+    background: #444;
+}
+
+#rightContent {
+    margin: 75px;
+}
+#locationText {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#gmap_canvas {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #555;
+    border-radius: 20px;
+}

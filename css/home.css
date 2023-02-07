@@ -1,0 +1,40 @@
+#mainContent {
+    padding-left: 200px;
+    padding-right: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#leftContent {
+    justify-self: right;
+    text-align: center;
+    margin: 75px;
+}
+#profileImage {
+    height: 300px;
+    width: 300px;
+    background-image: url("../images/Viq2wp.png");
+    background-size: 100%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+#profileText {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#rightContent {
+    margin: 75px;
+}
+#descriptionSubtitle {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+#descriptionText{
+    font-size: 20px;
+    line-height: 35px;
+}

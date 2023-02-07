@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" href="../css/headerfooter.css">
+        <link rel="stylesheet" href="../css/contact.css">
     </head>
 
 
@@ -19,16 +20,43 @@
             <a class="header_items" href="../index.html">Home</a>
             <a class="header_items" href="about.html">About</a>
             <a class="header_items" href="portfolio.html">Portfolio</a>
-            <a id="currentPage" class="header_items" href="contact.html">Contact</a>
             <a class="header_items" href="signin.html">Sign In</a>
             <a class="header_items" href="signup.html">Sign Up</a>
+            <a id="currentPage" class="header_items" href="contact.html">Contact</a>
 
         </header>
 
 
         <div id="mainContent">
 
-            <p>Contact</p>
+            <div id="leftContent">
+                <div id="contactText">
+                    <p>Contact Me</p>
+                </div>
+                <div class="input_fields">
+                    <p class="input_subtitle">Email</p>
+                    <input align:"top" type="text" name="Email" placeholder="Email" id="emailInput" class="text_input">
+                </div>
+                <div class="input_fields">
+                    <p class="input_subtitle">Message</p>
+                    <textarea name="Email" id="messageInput" class="text_input"></textarea>
+                </div>
+                <div id="submitContainer">
+                    <input type="submit" value="Sign Up" id="submitButton">
+                </div>
+            </div>
+
+            <div id="rightContent">
+                <div id="locationText">
+                    <p>My Location</p>
+                </div>
+                <div id="locationMap">
+                    <iframe width="600" height="500" id="gmap_canvas" 
+                        src="https://maps.google.com/maps?q=university%20of%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>                    
+                </div>
+            </div>
 
         </div>
 

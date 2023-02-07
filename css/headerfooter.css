@@ -19,6 +19,8 @@ header {
 footer {
     background: #555;
     color: #ddd;
+    padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: center;
 }
@@ -32,18 +34,19 @@ footer {
     padding: 15px;
     margin: 10px;
     
-    transition: 250ms;
+    transition: background-color 300ms;
 }
 .header_items:hover {
-    font-size: 32px;
+    background: #777;
 }
 .header_items:active {
     background: #888;
 }
 
 .footer_container {
-    margin: 10px;
+    margin: 20px;
     margin-top: 25px;
+    margin-bottom: 50px;
 }
 .footer_subtitle {
     text-align: center;
@@ -62,6 +65,6 @@ footer {
 }
 
 #mainContent {
-    background: #eee;
-    height: 50vh;
+    background: #f8f8f8;
+    height: 75vh;
 }

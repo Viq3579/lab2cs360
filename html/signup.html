@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up</title>
         <link rel="stylesheet" href="../css/headerfooter.css">
+        <link rel="stylesheet" href="../css/signin.css">
     </head>
 
 
@@ -19,16 +20,45 @@
             <a class="header_items" href="../index.html">Home</a>
             <a class="header_items" href="about.html">About</a>
             <a class="header_items" href="portfolio.html">Portfolio</a>
-            <a class="header_items" href="contact.html">Contact</a>
             <a class="header_items" href="signin.html">Sign In</a>
             <a id="currentPage" class="header_items" href="signup.html">Sign Up</a>
+            <a class="header_items" href="contact.html">Contact</a>
 
         </header>
 
 
         <div id="mainContent">
 
-            <p>Sign Up</p>
+            <div id="inputContainer">
+                <div class="input_fields">
+                    <p class="input_subtitle">Username</p>
+                    <form>
+                        <input type="text" name="Username" placeholder="Username" id="usernameInput" class="text_input">
+                    </form>
+                </div>
+                <div class="input_fields">
+                    <p class="input_subtitle">Email</p>
+                    <form>
+                        <input type="text" name="Email" placeholder="Email" id="emailInput" class="text_input">
+                    </form>
+                </div>
+                <div class="input_fields">
+                    <p class="input_subtitle">Password</p>
+                    <form>
+                        <input type="password" name="Password" placeholder="Password" id="passwordInput" class="text_input">
+                    </form>
+                </div>
+                <div class="input_fields">
+                    <p class="input_subtitle">Confirm Password</p>
+                    <form>
+                        <input type="password" name="CPassword" placeholder="Password" id="cpasswordInput" class="text_input">
+                    </form>
+                </div>
+
+                <div id="submitContainer">
+                    <input type="submit" value="Sign Up" id="submitButton">
+                </div>
+            </div>
 
         </div>
 
